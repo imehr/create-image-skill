@@ -20,7 +20,7 @@ This skill uses the image-generator repository at:
 - **Default model:** `gemini-3-pro-image-preview` (Nano Banana Pro)
 - **Env vars:**
   - `GOOGLE_CLOUD_PROJECT` (required)
-  - `GOOGLE_CLOUD_LOCATION` (optional, default: `us-central1`)
+  - `GOOGLE_CLOUD_LOCATION` (optional, default: `global`)
 - **Auth:** Application Default Credentials or `GOOGLE_APPLICATION_CREDENTIALS`
 
 ## Recommended Defaults (Nano Banana Pro)
@@ -37,7 +37,7 @@ Set one of the following for Nano Banana Pro:
 
 - VertexAI:
   - `GOOGLE_CLOUD_PROJECT=<project>`
-  - `GOOGLE_CLOUD_LOCATION=us-central1`
+  - `GOOGLE_CLOUD_LOCATION=global`
   - Optional model override: `VERTEX_MODEL=gemini-3-pro-image-preview`
 
 ## Provider Selection Rules
